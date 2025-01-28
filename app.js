@@ -87,5 +87,4 @@ function gerarNumeroAleatorio() {
   }
 }
 
-mensagemInicial()
-//---ss
+mensagemInicial();
