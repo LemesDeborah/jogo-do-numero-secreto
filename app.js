@@ -88,3 +88,4 @@ function gerarNumeroAleatorio() {
 }
 
 mensagemInicial()
+//---ss
