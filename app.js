@@ -11,6 +11,7 @@ paragrafo.innerHTML = 'Escolha um numero entre 1 e 10:';
 */
 let listaDeNumerosSorteados =[];
 let numeroLimite = 50; 
+let numeroLimite = 10; 
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 //04. CRIANDO UMA FUNÇÃO
