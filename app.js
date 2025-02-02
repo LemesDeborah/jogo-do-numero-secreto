@@ -10,8 +10,12 @@ let paragrafo = document.querySelector('p');
 paragrafo.innerHTML = 'Escolha um numero entre 1 e 10:';
 */
 let listaDeNumerosSorteados =[];
+<<<<<<< HEAD
 let numeroLimite = 50; 
 let numeroLimite = 10; 
+=======
+let numeroLimite = 100; 
+>>>>>>> parent of 375e023 (alterando limite para 50)
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 //04. CRIANDO UMA FUNÇÃO
@@ -59,7 +63,7 @@ function limparCampo(){
 
 function mensagemInicial(){
   exibirTextoNaTela('h1', 'Jogo do Número Secreto!');
-exibirTextoNaTela('p', 'Escolha um numero entre 1 e 50:');
+exibirTextoNaTela('p', 'Escolha um numero entre 1 e 10:');
 }
 
 function novoJogo(){
